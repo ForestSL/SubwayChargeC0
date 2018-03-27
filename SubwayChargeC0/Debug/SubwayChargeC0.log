@@ -1,0 +1,20 @@
+﻿生成启动时间为 2018/3/27 星期二 20:02:46。
+     1>项目“C:\Users\Administrator.ZX-201607151344\Documents\Tencent Files\1242760109\FileRecv\VC工程\VC工程2\SubwayChargeC0\SubwayChargeC0.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\SubwayCharge.cpp src\SubwayList.cpp
+         SubwayList.cpp
+         SubwayCharge.cpp
+     1>c:\users\administrator.zx-201607151344\documents\tencent files\1242760109\filerecv\vc工程\vc工程2\subwaychargec0\src\subwaycharge.cpp(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+         正在生成代码...
+       Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\SubwayChargeC0.exe" /INCREMENTAL /NOLOGO lib\ExamApi.lib lib\SocketApi.lib lib\SubwayChargeApi.lib Ws2_32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\SubwayChargeC0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\SubwayChargeC0.lib" /MACHINE:X86 /SAFESEH .\Debug\SubwayCharge.obj
+         .\Debug\SubwayList.obj
+     1>SubwayCharge.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>SubwayChargeApi.lib(SubwayChargeLib.obj) : error LNK2026: 模块对于 SAFESEH 映像是不安全的。
+     1>LINK : fatal error LNK1104: 无法打开文件“LIBCD.lib”
+     1>已完成生成项目“C:\Users\Administrator.ZX-201607151344\Documents\Tencent Files\1242760109\FileRecv\VC工程\VC工程2\SubwayChargeC0\SubwayChargeC0.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:06.39
